@@ -1,0 +1,43 @@
+@media screen and (max-width:700px) {
+  header .container{
+    flex-direction: column;
+  }
+
+  main section .container{
+    max-width: 320px;
+  }
+  
+  main section .container h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  main section.filme-principal
+  {
+    background-size:cover;
+    background-position: center;
+    opacity:0.9;
+  }
+
+  main section .container div a{
+    width: 230px;
+    margin-top: 5px;
+  }
+
+  .container-info{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .container-info img{
+    padding: 0;
+  }
+
+  
+  .informacoes{
+    text-align: left;
+  }
+
+  
+}
